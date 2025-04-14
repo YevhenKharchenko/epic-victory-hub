@@ -1,15 +1,13 @@
 .context-menu {
   display: none;
-  backdrop-filter: blur(24px);
-  background: #c0eefe;
-  padding: 49px 0px 70px 61px;
-  border-bottom: 2px solid #260036;
+  background: #232c5b;
+  padding: 24px 16px 338px 16px;
   max-width: 375px;
   width: 100%;
   margin-right: auto;
   margin-left: auto;
   position: fixed;
-  top: 60px;
+  top: 59px;
   left: 50%;
   transform: translateX(-50%);
   z-index: 10;
@@ -18,19 +16,21 @@
 .context-nav-list {
   display: flex;
   flex-direction: column;
-  gap: 48px;
-  text-align: left;
+  gap: 8px;
+  text-align: center;
 }
 
 .context-list-link {
-  font-family: 'Fredoka One', sans-serif;
-  font-weight: 400;
-  font-size: 18px;
-  color: #260036;
+  font-family: 'Syne', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 8px 0 10px 0;
   transition: all 0.3s ease-in-out;
 
   &:active {
-    color: $_white_text_color;
   }
 }
 

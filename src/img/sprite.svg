@@ -7,13 +7,13 @@
       <path fill="#fff" d="M14.989 8v16.784l-6.865-5.675-1.457 1.205 8.605 7.111L16 28l.728-.575 8.605-7.111-1.456-1.203-6.864 5.673V8h-2.025z" style="fill:var(--color1, #fff)"/>
     </symbol>
     <symbol id="icon-close" viewBox="0 0 32 32">
-      <path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M24 8 8 24M8 8l16 16" style="stroke:var(--color1, #fff)"/>
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M24 8 8 24M8 8l16 16"/>
     </symbol>
     <symbol id="icon-ellipse" viewBox="0 0 32 32">
       <path d="M32 16c0 8.837-7.163 16-16 16S0 24.837 0 16 7.163 0 16 0s16 7.163 16 16z"/>
     </symbol>
     <symbol id="icon-menu" viewBox="0 0 32 32">
-      <path fill="#fff" d="M5 8.667a.997.997 0 0 1 1-1h20a.997.997 0 0 1 1 1 .997.997 0 0 1-1 1H6a.997.997 0 0 1-1-1zM5 16a.997.997 0 0 1 1-1h20a.997.997 0 0 1 1 1 .997.997 0 0 1-1 1H6a.997.997 0 0 1-1-1zm0 7.333a.997.997 0 0 1 1-1h20a.997.997 0 0 1 1 1 .997.997 0 0 1-1 1H6a.997.997 0 0 1-1-1z" style="fill:var(--color1, #fff)"/>
+      <path d="M5 8.667a.997.997 0 0 1 1-1h20a.997.997 0 0 1 1 1 .997.997 0 0 1-1 1H6a.997.997 0 0 1-1-1zM5 16a.997.997 0 0 1 1-1h20a.997.997 0 0 1 1 1 .997.997 0 0 1-1 1H6a.997.997 0 0 1-1-1zm0 7.333a.997.997 0 0 1 1-1h20a.997.997 0 0 1 1 1 .997.997 0 0 1-1 1H6a.997.997 0 0 1-1-1z"/>
     </symbol>
   </defs>
 </svg>

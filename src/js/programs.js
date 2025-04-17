@@ -3,19 +3,19 @@ import { Autoplay } from 'swiper/modules';
 import 'swiper/css/bundle';
 import { observeSwiperAutoplay } from './observer.js';
 
-Swiper.use([Autoplay]);
+// Swiper.use([Autoplay]);
 
-const benefitsSwiperEl = document.querySelector('.benefits-swiper-container');
+const programsSwiperEl = document.querySelector('.programs-swiper-container');
 
-let benefitsSwiper;
+let programsSwiper;
 
-benefitsSwiper = new Swiper('.benefits-swiper-container', {
+programsSwiper = new Swiper('.programs-swiper-container', {
   direction: 'horizontal',
-  loop: true,
+  // loop: true,
   grabCursor: true,
   slidesPerView: 1,
   initialSlide: 0,
-  spaceBetween: 40,
+  spaceBetween: 0,
   grabCursor: true,
   allowTouchMove: true,
   speed: 500,
@@ -25,18 +25,17 @@ benefitsSwiper = new Swiper('.benefits-swiper-container', {
   },
   breakpoints: {
     1440: {
-      loop: false,
-      initialSlide: 2,
-      slidesPerView: 5,
+      // initialSlide: 2,
+      // slidesPerView: 3,
     },
   },
   on: {
     init: () => {
       document
-        .querySelector('.benefits-swiper-container')
+        .querySelector('.programs-swiper-container')
         .classList.add('show');
     },
   },
 });
 
-observeSwiperAutoplay(benefitsSwiper, benefitsSwiperEl);
+// observeSwiperAutoplay(programsSwiper, programsSwiperEl);

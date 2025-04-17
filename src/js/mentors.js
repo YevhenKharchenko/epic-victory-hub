@@ -5,17 +5,17 @@ import { observeSwiperAutoplay } from './observer.js';
 
 // Swiper.use([Autoplay]);
 
-const programsSwiperEl = document.querySelector('.programs-swiper-container');
+const mentorsSwiperEl = document.querySelector('.mentors-swiper-container');
 
-let programsSwiper;
+let mentorsSwiper;
 
-programsSwiper = new Swiper('.programs-swiper-container', {
+mentorsSwiper = new Swiper('.mentors-swiper-container', {
   direction: 'horizontal',
   // loop: true,
   grabCursor: true,
   slidesPerView: 1,
   initialSlide: 0,
-  spaceBetween: 0,
+  spaceBetween: 8,
   grabCursor: true,
   allowTouchMove: true,
   speed: 500,
@@ -26,15 +26,14 @@ programsSwiper = new Swiper('.programs-swiper-container', {
   breakpoints: {
     1440: {
       initialSlide: 1,
+      spaceBetween: 20,
     },
   },
   on: {
     init: () => {
-      document
-        .querySelector('.programs-swiper-container')
-        .classList.add('show');
+      document.querySelector('.mentors-swiper-container').classList.add('show');
     },
   },
 });
 
-// observeSwiperAutoplay(programsSwiper, programsSwiperEl);
+// observeSwiperAutoplay(mentorsSwiper, mentorsSwiperEl);

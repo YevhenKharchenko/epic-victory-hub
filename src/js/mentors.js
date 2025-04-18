@@ -3,7 +3,7 @@ import { Autoplay } from 'swiper/modules';
 import 'swiper/css/bundle';
 import { observeSwiperAutoplay } from './observer.js';
 
-// Swiper.use([Autoplay]);
+Swiper.use([Autoplay]);
 
 const mentorsSwiperEl = document.querySelector('.mentors-swiper-container');
 
@@ -36,4 +36,4 @@ mentorsSwiper = new Swiper('.mentors-swiper-container', {
   },
 });
 
-// observeSwiperAutoplay(mentorsSwiper, mentorsSwiperEl);
+observeSwiperAutoplay(mentorsSwiper, mentorsSwiperEl);

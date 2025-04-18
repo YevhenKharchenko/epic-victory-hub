@@ -1,5 +1,14 @@
 .equipment-section {
   background: #e9e9e9;
+  scroll-margin-top: 56px;
+
+  @include media(desktop) {
+    scroll-margin-top: 52px;
+    background-image: url(../img/mission/bg-img.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
 }
 
 .equipment-top-wrapper {

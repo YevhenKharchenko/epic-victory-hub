@@ -3,7 +3,7 @@ import { Autoplay } from 'swiper/modules';
 import 'swiper/css/bundle';
 import { observeSwiperAutoplay } from './observer.js';
 
-// Swiper.use([Autoplay]);
+Swiper.use([Autoplay]);
 
 const programsSwiperEl = document.querySelector('.programs-swiper-container');
 
@@ -37,4 +37,4 @@ programsSwiper = new Swiper('.programs-swiper-container', {
   },
 });
 
-// observeSwiperAutoplay(programsSwiper, programsSwiperEl);
+observeSwiperAutoplay(programsSwiper, programsSwiperEl);

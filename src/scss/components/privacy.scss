@@ -37,6 +37,7 @@
   text-transform: uppercase;
   color: #181b1d;
   margin-bottom: 32px;
+  word-break: break-word;
 
   @include media(desktop) {
     font-size: 64px;
@@ -60,6 +61,7 @@
   text-transform: uppercase;
   color: #181b1d;
   margin-bottom: 32px;
+  word-break: break-word;
 
   @include media(desktop) {
     font-size: 40px;
@@ -74,6 +76,7 @@
   text-transform: uppercase;
   color: #181b1d;
   margin-bottom: 16px;
+  word-break: break-word;
 
   @include media(desktop) {
     font-size: 24px;

@@ -15,9 +15,6 @@
   padding-bottom: 32px;
 }
 
-.mentors-top-container {
-}
-
 .mentors-title {
   font-family: 'Syne', sans-serif;
   font-weight: 700;
@@ -29,6 +26,7 @@
   display: flex;
   align-items: center;
   gap: 10px;
+  word-break: break-word;
 
   @include media(desktop) {
     margin-bottom: 60px;

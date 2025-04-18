@@ -1,8 +1,8 @@
-.mission-section {
+.equipment-section {
   background: #e9e9e9;
 }
 
-.mission-top-wrapper {
+.equipment-top-wrapper {
   padding-top: 40px;
   padding-bottom: 32px;
   border-bottom: 1px solid #bababa;
@@ -12,7 +12,7 @@
   }
 }
 
-.mission-title {
+.equipment-title {
   font-family: 'Syne', sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -23,86 +23,73 @@
   display: flex;
   align-items: center;
   gap: 10px;
-  word-break: break-word;
 
   @include media(desktop) {
     margin-bottom: 60px;
   }
 }
 
-.mission-subtitle {
+.equipment-subtitle {
   font-family: 'Syne', sans-serif;
   font-weight: 700;
   font-size: 36px;
   line-height: 1;
   text-transform: uppercase;
   color: #090909;
+  word-break: break-word;
 
   @include media(desktop) {
     font-size: 40px;
   }
 }
 
-.mission-bottom-wrapper {
-  padding-top: 24px;
+.equipment-bottom-wrapper {
+  padding-top: 16px;
   padding-bottom: 40px;
 
   @include media(desktop) {
+    padding-top: 24px;
     padding-bottom: 100px;
   }
 }
 
-.mission-bottom-container {
+.equipment-bottom-container {
   @include media(desktop) {
     display: flex;
     justify-content: space-between;
-    padding-right: 116px;
   }
 }
 
-.mission-text {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 1.42;
-  color: #090909;
+.equipment-img-wrapper {
   margin-bottom: 24px;
 
   @include media(desktop) {
-    max-width: 456px;
+    margin-bottom: 0;
   }
 }
 
-.mission-list {
+.equipment-list {
   display: flex;
   flex-direction: column;
-  gap: 32px;
+  gap: 24px;
 }
 
-.mission-list-item {
-  display: flex;
-  gap: 10px;
+.equipment-list-item {
+  padding: 0 16px 16px 0;
+  border-bottom: 1px solid #bababa;
 }
 
-.mission-item-number {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.4;
-  color: #090909;
-}
-
-.mission-item-title {
+.equipment-item-title {
   font-family: 'Syne', sans-serif;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 24px;
   line-height: 1;
   text-transform: uppercase;
   color: #090909;
   margin-bottom: 8px;
 }
 
-.mission-item-text {
+.equipment-item-text {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
   font-size: 18px;

@@ -1,0 +1,849 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Epic Victory Hub to zaawansowana platforma szkoleniowa dla graczy. Oferujemy kursy, treningi, analizy meczów i wsparcie od profesjonalnych e-sportowców. Zostań mistrzem swojej gry z pomocą ekspertów."
+    />
+    <meta
+      name="keywords"
+      content="e-sport, szkolenia gamingowe, kursy dla graczy, trening e-sportowy, streamer kurs, FPS coaching, MOBA taktyki, turnieje e-sportowe, gaming mentoring, platforma dla graczy"
+    />
+    <meta name="author" content="Epic Victory Hub" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://epicvictoryhub.com" />
+    <link rel="icon" type="image/png" href="/epic-victory-hub/favicon.png" />
+    <title>Epic Victory Hub</title>
+    
+    <script type="module" crossorigin src="/epic-victory-hub/commonHelpers3.js"></script>
+    <link rel="modulepreload" crossorigin href="/epic-victory-hub/assets/header-dc25c971.js">
+    <link rel="modulepreload" crossorigin href="/epic-victory-hub/assets/vendor-fd0c1e68.js">
+    <link rel="stylesheet" href="/epic-victory-hub/assets/header-feb510bc.css">
+    <link rel="stylesheet" href="/epic-victory-hub/assets/vendor-fef9b9da.css">
+  </head>
+  <body>
+    <header class="header">
+  <div class="container header-container">
+    <nav class="nav">
+      <ul class="nav-list">
+        <li class="nav-list-item">
+          <a class="nav-list-link" href="./index.html#hero">O nas</a>
+        </li>
+        <li class="nav-list-item">
+          <a class="nav-list-link" href="./index.html#mission">Nasza misja</a>
+        </li>
+        <li class="nav-list-item">
+          <a class="nav-list-link" href="./index.html#programs"
+            >Programy szkoleniowe</a
+          >
+        </li>
+        <li class="nav-list-item">
+          <a class="nav-list-link" href="./index.html#mentors"
+            >Trenerzy i mentorzy</a
+          >
+        </li>
+        <li class="nav-list-item">
+          <a class="nav-list-link" href="./index.html#equipment"
+            >Sprzęt i technologia</a
+          >
+        </li>
+        <li class="nav-list-item">
+          <a class="nav-list-link" href="./index.html#prices"
+            >Członkostwo i ceny</a
+          >
+        </li>
+        <li class="nav-list-item">
+          <a class="nav-list-link" href="./index.html#footer">Kontakt</a>
+        </li>
+      </ul>
+      <button class="nav-btn" type="button" aria-label="Open mobile menu">
+        <svg class="menu-icon" width="24" height="24">
+          <use href="/epic-victory-hub/assets/sprite-4806a4bc.svg#icon-menu"></use>
+        </svg>
+      </button>
+      <button class="close-btn" type="button" aria-label="Close mobile menu">
+        <svg class="close-icon" width="24" height="24">
+          <use href="/epic-victory-hub/assets/sprite-4806a4bc.svg#icon-close"></use>
+        </svg>
+      </button>
+    </nav>
+  </div>
+</header>
+
+    <main>
+      <section class="hero-section" id="home">
+  <div class="hero-title-wrapper">
+    <div class="container hero-title-container">
+      <h1 class="hero-title">
+        Epic Victory
+        <span class="hero-title-span"
+          ><picture>
+            <source
+              srcset="data:image/png;base64,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 "
+              media="(min-width: 1440px)"
+              width="98"
+              height="100" />
+            <source
+              srcset="data:image/png;base64,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 "
+              width="57"
+              height="58" />
+            <img
+              class="hero-img"
+              src="data:image/png;base64,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"
+              alt="Logo"
+              width="57"
+              height="58" /></picture
+          >Hub</span
+        >
+      </h1>
+      <a class="hero-scroll-link-desk" href="#"
+        >scroll down<svg class="arrow-icon" width="24" height="24">
+          <use href="/epic-victory-hub/assets/sprite-4806a4bc.svg#icon-arrow-down"></use></svg
+      ></a>
+    </div>
+  </div>
+  <div class="hero-content-wrapper">
+    <div class="hero-img-wrapper">
+      <div class="container hero-text-container">
+        <picture>
+          <source
+            srcset="/epic-victory-hub/assets/hero-controller-desk-b8d20be2.jpg "
+            media="(min-width: 1440px)"
+            width="662"
+            height="290" />
+          <source
+            srcset="/epic-victory-hub/assets/hero-controller-mob-fcfee031.jpg "
+            width="343"
+            height="290" />
+          <img
+            class="hero-img"
+            src="/epic-victory-hub/assets/hero-controller-mob-fcfee031.jpg"
+            alt="Controller"
+            width="343"
+            height="290"
+        /></picture>
+      </div>
+    </div>
+    <div class="hero-text-wrapper">
+      <div class="container hero-text-container">
+        <h2 class="hero-subtitle">
+          Twój pierwszy krok do profesjonalnej kariery w
+          <span class="hero-subtitle-span">e-sporcie</span>
+        </h2>
+        <p class="hero-text">
+          Epic Victory Hub to nowoczesne centrum szkoleniowe, które łączy pasję
+          do gier ze światem profesjonalnej rywalizacji. Oferujemy kompleksowe
+          programy szkoleniowe, mentoring przez doświadczonych graczy oraz
+          najlepsze warunki do rozwijania umiejętności.
+        </p>
+        <p class="hero-bottom-text">
+          Nasze centrum to miejsce, gdzie każdy może odnaleźć swoją drogę do
+          sukcesu. Oferujemy profesjonalne szkolenia, analizy meczów,
+          optymalizację strategii oraz wsparcie mentalne, które są kluczowe w
+          drodze do e-sportowej kariery.
+        </p>
+        <a class="hero-scroll-link" href="#"
+          >scroll down<svg class="arrow-icon" width="24" height="24">
+            <use href="/epic-victory-hub/assets/sprite-4806a4bc.svg#icon-arrow-down"></use></svg
+        ></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="mission-section">
+  <div class="mission-top-wrapper">
+    <div class="container">
+      <h2 class="mission-title">
+        <svg class="arrow-icon" width="8" height="8">
+          <use href="/epic-victory-hub/assets/sprite-4806a4bc.svg#icon-ellipse"></use></svg
+        >Nasza misja
+      </h2>
+      <p class="mission-subtitle">Nie tylko gra, ale droga do mistrzostwa</p>
+    </div>
+  </div>
+  <div class="mission-bottom-wrapper">
+    <div class="container mission-bottom-container">
+      <p class="mission-text">
+        Naszym celem jest nie tylko doskonalenie umiejętności graczy, ale
+        również:
+      </p>
+      <ul class="mission-list">
+        <li class="mission-list-item">
+          <span class="mission-item-number">(01)</span>
+          <div class="mission-item-text-wrapper">
+            <h3 class="mission-item-title">Budowanie mentalności zwycięzcy</h3>
+            <p class="mission-item-text">
+              Nauka zarządzania stresem i koncentracji.
+            </p>
+          </div>
+        </li>
+        <li class="mission-list-item">
+          <span class="mission-item-number">(02)</span>
+          <div class="mission-item-text-wrapper">
+            <h3 class="mission-item-title">Tworzenie profesjonalnych drużyn</h3>
+            <p class="mission-item-text">
+              Wspieranie współpracy i komunikacji w grze.
+            </p>
+          </div>
+        </li>
+        <li class="mission-list-item">
+          <span class="mission-item-number">(03)</span>
+          <div class="mission-item-text-wrapper">
+            <h3 class="mission-item-title">
+              Indywidualne podejście do każdego gracza
+            </h3>
+            <p class="mission-item-text">
+              Programy dostosowane do poziomu umiejętności.
+            </p>
+          </div>
+        </li>
+        <li class="mission-list-item">
+          <span class="mission-item-number">(04)</span>
+          <div class="mission-item-text-wrapper">
+            <h3 class="mission-item-title">
+              Przygotowanie do światowej sceny e-sportu
+            </h3>
+            <p class="mission-item-text">
+              Taktyki, analizy i strategie gry na najwyższym poziomie.
+            </p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+      <section class="programs-section" id="programs">
+  <div class="programs-top-wrapper">
+    <div class="container programs-top-container">
+      <h2 class="programs-title">
+        <svg class="arrow-icon" width="8" height="8">
+          <use href="/epic-victory-hub/assets/sprite-4806a4bc.svg#icon-ellipse-white"></use></svg
+        >Programy szkoleniowe
+      </h2>
+      <p class="programs-subtitle">
+        Profesjonalne ścieżki rozwoju dla każdego poziomu
+      </p>
+    </div>
+  </div>
+  <div class="programs-bottom-wrapper">
+    <div class="programs-bottom-swiper-wrapper">
+      <div class="programs-swiper-container">
+        <ul class="swiper-wrapper programs-swiper-wrapper">
+          <li class="swiper-slide programs-slide">
+            <div class="programs-slide-wrapper">
+              <p class="programs-slide-top-text">6 tygodni</p>
+              <div class="programs-img-wrapper">
+                <img
+                  class="programs-slide-img"
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGEAAABkCAYAAACWy14QAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAA6sSURBVHgB7V3db1zFFT9n7m6wUio275W8vFeykZCIJSpvqj6AhIShUotaVG+lIhUoiiMEVJWK7T60Cm2JqUCi4gE7atU+VI3zXsmbkuC8xfkHGvMXxBFQJXh3pufM55ndTUlC4r2D8oNk79fcnXt+cz5n7gagcEwd3WpD4VBQOFQTZqFwFE8CAD4NhaN4EirEeSgcRZPQ6my1EKE91SnbL5SuCbOVApyCagYKRgMKBo2gWaRPowYPQ8EoWhOqSjEJpgK8rwmTgjIwQ8MIAbHoMLVoTVAKZhWiYTLYSUOhKJaEb31vq6PYHaBBpRC+0YQ2FIpiSVCoZjgy4gdQYJCYKDZfKNYnIGIHWBOUQWOAHUOxfqFYEkgLZsEYZPEDGj7UgUJRpDlqP7HVRjBtZPkj+wUk82TafBwKRJEkHILmfMVREalARXaIIyT6MA8YVWQxr0hzhEovkAKQESLhc8pst+kvVaZfKJKEBkLHgJU+WOGj3wEoUhOKM0ezT211SOgtG5qSPaqsP+CQlc0SHPk2nYfCUBwJGqquJQDFn7CvuJRRFacNxZFAwp63pYoofINyv1LYhcJQFAmPPsWlCpwe0QQiwpkldtSm9WhhJqkoErBqLnKGbM2OJyAJn/IFcMdAlWWSyiIBdIeF7nIDRwCGIh5Hrso5aTZJnYVyqqrFkHB04d9dEi5nylbwngDvmBUTwYU8nl7gWkbrBpYz5VkMCST0RSt8N9ptjlZZbUhawduVDVv5wXAFCgFCATi6sNVuqsaVsG8TNNt1M9J/qqiyqrDCGKjgu+f/8Z0e1BxFaMKhqlpxtt+Fojzikc2Pdc7OD7hCnq2u2pCVNaYyuAgFoPaa8MRzW+0b/cYVO8LBmaG4wduyhBTOQdoxg/7Dvc1ju1Bj1F4T9gfNZZeEuRHO4akd5alcwdu2imq3/Wc8VzWXoeaotSawFgx08woEO2+HNv+Pzhnwh9h3WuD9BOuGnXKjI9oc+1eNfUOtNcHoxhYZm1CSMD4xo5HPpQqeXw4+gvftMZAlDPTbjQprrQ21JeHJH144TgKddmbICd3lBeSQFcZyRTI9VLrzZCAKcpyWzD/5g/NLUFPU0hwtkBnqY+MSWZNW1kVnlpgNO7nvDZCJs8ziQgeULa81cf+Rzb/Xz0nXThMWqNygkcwQYCuEn5US5WofCTmzg2EeAdwaJDZZvprK5wBMnGtQQPdtnqljOaN+5uhw8xSZk7ZbT2SLctbTVsoLE2xm7EsU7nzMD8CNfY6eXHbts2fvK+hjtkX3h5qhViQ8+/yFZRLfYoVJ6FG4Tph2tHtS0GsB2lUXzknHuQUigrddfYnPcQLtfEn32R9dqJWjro1P+P6Pz39IMuvaLrnag0FRlnBWPh2TPsCHp8E3+MVIkIWpYLIWRoN5559/ffwE1AATJ+G5LuUC+80zNJxnDNjIxnLgBGryLNm34SzZ2iWTHR0hDiCRB+5Goo1NwXf2G/vPbK5P1llPlITnnv+IJu3xDAnvIe6LFT76OoQf1X4xhUnFOgxBUhYDmSDosBRmTHEvIZLAZmyXDNfK307PbcCEMBESFrpbrcODQ6dICIs+3PTLVsJoFrElnUSvC1YDxOlImjju2AomCxNzApFE2y7ebP1Qtb+6PgGtOFASuiT8vj50nJ54iSTbglh1HoInxTjT4QcspDJEIM37DvsgvoRhgfEvry4m9w+hwCHI9wTukgtf/8vpuVU4QBwICSx8DSR8w8JXD7mFvBA9qp8asAPX+wN3NnhcL8owahMJiUXEKG/jFwnjcEk1jPysPUjFCw30LoVRK6c/fPxATNQ9JYGFDyx8AP5zBMALKPhdZ7rTJ+gkEGn08/1MtPE0+rI2pFpeKnfHdiCEbuQosHxi0iHtalafkDZuUi33nXtppu4JCd3uRzQhr5bNly5Xzxzu0HZwsuJqa4rMmLaSmJyI1FZGqbyhZPvh+8Fwe9pa11pvrK/f/WrsXSPhZyR4paqnNZpFepYWjEQnIw+ZYHwgFGxKqFRDinrChdZfcEYW/YXJRq9YlxpNXCAV/Nsk+b2NUM1h4AhR9BWfkIb0qoHeeP8uEXLHJCwtbbWu7zVmqVizQA/zE7rRkfwhMK7VNSOuV54DIUhxbYx4IE8H7AG3L3wzyuvDJaN1vHAMReAU7mOCQ5f2yiTHHtMMH0a78JYO9FB/NUJui4QXXjg/SznSvNKwQD2d4RHvgniTHg5cpGLifpyTj51PDzrsLHOh5947CDZMZwbC0CTnLr/L3TPzPwFmyIdgigJSf3KzZ01hSP2yPMPf0t2zR38298Gc++CDx3fgFnFTEnik9z99oKMrnKEkv0PfOMtJVRRwtMDBqYVwO5gJACnc8MDh4WP2iqNDPM8bvOAhRp5RQCG7jg+ThbUp+w4djSM5iwYwqp7vnDRTQ34IYs7imgaiwQdkXkPcJXv09w5Vq3oA/XONB/s7a2vH9sbJGlnY8HmzPXA/UTBLBnca+FPDNKDvWBCRid/nxnEysQDpmJEm1iVOyiS2RKYlzLAcuTH6lOFNFoPKe2PQgpABm1D+kL41kIMwnJHL7puUlCQFzLZDv/KBIAehzGGS7/ED5ArtU8QFvYbCy3092GNyGkDzJn3zWYsa7SFWV5UyM3asKG43FEEgCjvpqpxymY87hphqOxD13nbQPzt6CwuyFOGnMZNyiuwXVTQbNq6x2+jOhpFtX59ykz0KQ1uxCAOtaEIybfut/HlpsxSkLC+l5/xIOiXXYJffYNoW5tQuxnH+RaXnAC8F/o69SqkW6H6rgeRTSP7/xxxdasH1z2bpVh3anaevmKGvPSLHjgkzXT5ssHOJOk+s5LWu3xrTqJZ5l0+zMNaGxvRNWmHIFEtckcwLDGkxRrMmHXgoFkZbLwSXa4S43j8ySCeOIEsqZo82d+jPOdCDHTj8zd7a2iPjzRHcBpbIMVNNfp5aLRCt87mgnarr8FDD4SLAaEXZtwsPM9wmPfDofggGcnPghOz2AUHYdq9paDJ/MTQSRJ9gKH/Jr8nPu76Ya3Rkh3R200Cj9/afH7sMt4jbImEYr/58u0Mfi2QeOtSN6TCkQZpjMXjNTeP42J30cMIeZ6GoHHiQ3zeplbivCRcHSyiQKxbIfmURkrcwvovpezWbcNzQMNgcTD24c7OR/mX4SiRIvOEJoTt2qKNtiOGfnRYQkvO+QH6z8x1GhpjWZke766MRdzHGnvswOA8dYej+LMtkNSGFwULLULgF1344B4kuxpmZDbKqmyffn+vBXcBdI0GCCSH/sIhMivsWHGOHbtYlkwlRahTkNtlfPqYMK28HSePMzb8v3lc6AukLEHtm0F89+X6NyxbjQGS0G5U5ThJYoC+ahvR0YgQyhqoGI6QNecfYVrYb1hB5zbjrRZsx8CHunta49t9DU+/cqam5FdxTEiR+9dL5boXVMmlI28fskpFkdvIAPUYzJpsLCJ3HLBRKa5FC25AWhOAWRDidfY/dFmWUazwH/Xnj8Nq9FH56jgPGm7/YXibz36UHbvvYxCZYdsvEEoKQZIyCovTTLGgMLeM0hEy04/kw+eZ4wtgIggD4uObjV6nxn4CEv3IAwg84cBIYK0vbbRLDMj10F1LhbIzRMflxWeYIGbC34rkT9cAseRX7IuvFQAOVqqupEwcp/NhNmCB+88p2l8zTMnWiPRxmiokYHyOx0LRP5iA67ESQqEJgKCMZYX9i9JNcryPuGl39zK/X7k6kcyeYKAmM35FWaGPOgP3RKF9pNaL0Key5O+5DXIjxS6q7eUgSQ8QjSjkgrr+8j/DMytrcLkwQEych4LdLH58iaR23S6q1DexT6XBccASBhJCdwUhUm+ALv/F9BkvOxi/X5n4KNUBtSGCcXNpeIUm96VNdUa4I64ikAw5wDEUzFhxD3M9LH+5+sPrGqbkVqAlqRQLjDyc+XiciFnnbiMkfBxn3y33Mkg/bNoVQ2fwBnVx/9e16aEBA7VZlV+bGUsWFMIS0+tpVoU3+UkhYJm+Pu/eZwfhV2O7NTj5XhTZgFwbvfqqnarH+VKJ2msA4Rc4aK7hkF4ilIpo/mxKt6MOzcwBiUZ6JBRCt94zGR05M2AmPQy1fl2JBIVQr8d0CXtIO4r1l4PfEVVgC739awU7SuJ9VIMHzW5w8v1GB/e0LXmO/UkcCGLXUhIB3X7u4RR+dMA+RfWpIs4axoDEaF/n8eveVt44+DDVFzd/eNKuhCIHJ6xrws3iYmyE7e4g+ckUfErE1aqA5BjVGrUl45Y9zPZL3BqRqkJW/m1aOiTOKNSuMbHECYf3Fk/U0QwG1f6O/UrAKopBnf1bHrt5w5QiMZaVQ5zAyseOfcV6FmqP2JPAoJgFvsOCdHXKa4IWOEKZtnP1BzOYLYKPuWsAo4ldeSN7rYj2YhZxLgFhJNbF8zf9/sV9/LWAUQYLzDdCzO2HsQyxYpBV5giQ61qtrSDqMYn75iyMlyHMy/tvmYohC+F4xlFLrUAiKIaE/uL5Dw/sqb/vACP1/bpImVErdZOjuS289tgGFoBgSTtjFtHhaHrNmKNMACG66BwWhqJ/k1NpsQljoCSk1yBYxGXtdMVrAqHXZYhzefW37Kto3Pz1GKxW7L9e4RDEOxf1WtuFRbl0y/adFouaO8U4PCkOB/5IIbroPVzIFCOtMXYqgNRRlihjFmSPGe69vU5TEcw1iEYxbPrH38u/njkBhKPLf1CHBn01xqjBJyK8mlYciSaDy0SW/+iXmCgyiYRMKRJEkUGX0bFxB5x0yM7GP+hwUiCJ9AuO91y9eIeFP+13moLjQNKBITbAwvqCXBtItvzdcNxRLgjH6svQH9FGkKWIUSwJio8c+wYRFpgNzXxMOGl/sN3f5M7w0/iLNOUChKJaEE+49gh0/01+sFjDKdcwMBH5XmFOG+yRMDNr7AXVfEyYGY6pdjo9039zy2/N1RNEkNBraakB/MFW0JhSP9167+B8oHGX7BLAPUGySFlA8CX3Es1A4vgYk6OL9wf8AymtmJYrTh4sAAAAASUVORK5CYII="
+                  alt="Picture of figure"
+                  width="97"
+                  height="100"
+                />
+              </div>
+              <div class="programs-slide-text-wrapper">
+                <h2 class="programs-item-subtitle">
+                  Podstawowy kurs dla amatorów
+                </h2>
+                <p class="programs-item-text">
+                  Nauka podstawowych mechanik gier, refleksu i koordynacji.
+                </p>
+              </div>
+            </div>
+          </li>
+          <li class="swiper-slide programs-slide">
+            <div class="programs-slide-wrapper">
+              <p class="programs-slide-top-text">10 tygodni</p>
+              <div class="programs-img-wrapper">
+                <img
+                  class="programs-slide-img"
+                  src="/epic-victory-hub/assets/programs-img2-mob-cb219c51.png"
+                  alt="Picture of figure"
+                  width="97"
+                  height="100"
+                />
+              </div>
+              <div class="programs-slide-text-wrapper">
+                <h2 class="programs-item-subtitle">Kurs zaawansowany</h2>
+                <p class="programs-item-text">
+                  Analiza rozgrywek, strategie, optymalizacja decyzji w trakcie
+                  gry.
+                </p>
+              </div>
+            </div>
+          </li>
+          <li class="swiper-slide programs-slide">
+            <div class="programs-slide-wrapper">
+              <p class="programs-slide-top-text">12 tygodni</p>
+              <div class="programs-img-wrapper">
+                <img
+                  class="programs-slide-img programs-img3"
+                  src="/epic-victory-hub/assets/programs-img3-mob-6375b185.png"
+                  alt="Picture of figure"
+                  width="116"
+                  height="100"
+                />
+              </div>
+              <div class="programs-slide-text-wrapper">
+                <h2 class="programs-item-subtitle">
+                  Intensywny program dla przyszłych zawodowców
+                </h2>
+                <p class="programs-item-text">
+                  Kompleksowe szkolenie turniejowe, przygotowanie psychiczne i
+                  techniczne.
+                </p>
+              </div>
+            </div>
+          </li>
+          <li class="swiper-slide programs-slide">
+            <div class="programs-slide-wrapper">
+              <p class="programs-slide-top-text">-</p>
+              <div class="programs-img-wrapper">
+                <img
+                  class="programs-slide-img programs-img4"
+                  src="/epic-victory-hub/assets/programs-img4-mob-8fd42bc5.png"
+                  alt="Picture of figure"
+                  width="99"
+                  height="100"
+                />
+              </div>
+              <div class="programs-slide-text-wrapper">
+                <h2 class="programs-item-subtitle">
+                  Kurs dla streamerów i twórców treści
+                </h2>
+                <p class="programs-item-text">
+                  Jak zbudować własną markę w świecie gier i rozwijać
+                  społeczność.
+                </p>
+              </div>
+            </div>
+          </li>
+          <li class="swiper-slide programs-slide">
+            <div class="programs-slide-wrapper">
+              <p class="programs-slide-top-text">-</p>
+              <div class="programs-img-wrapper">
+                <img
+                  class="programs-slide-img programs-img5"
+                  src="/epic-victory-hub/assets/programs-img5-mob-df81d5bf.png"
+                  alt="Picture of figure"
+                  width="105"
+                  height="100"
+                />
+              </div>
+              <div class="programs-slide-text-wrapper">
+                <h2 class="programs-item-subtitle">
+                  Przygotowanie do turniejów e-sportowych
+                </h2>
+                <p class="programs-item-text">
+                  Specjalistyczne treningi skoncentrowane na grze w warunkach
+                  turniejowych.
+                </p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="mentors-section" id="mentors">
+  <div class="mentors-top-wrapper">
+    <div class="container mentors-top-container">
+      <h2 class="mentors-title">
+        <svg class="arrow-icon" width="8" height="8">
+          <use href="/epic-victory-hub/assets/sprite-4806a4bc.svg#icon-ellipse-white"></use></svg
+        >Trenerzy i mentorzy
+      </h2>
+      <p class="mentors-subtitle">Ucz się od najlepszych</p>
+    </div>
+  </div>
+  <div class="mentors-bottom-wrapper">
+    <div class="mentors-bottom-swiper-wrapper">
+      <div class="mentors-swiper-container">
+        <ul class="swiper-wrapper mentors-swiper-wrapper">
+          <li class="swiper-slide mentors-slide">
+            <div class="mentors-slide-wrapper">
+              <div class="mentors-img-wrapper">
+                <picture>
+                  <source
+                    srcset="/epic-victory-hub/assets/mentors-tomasz-desk-b9e357d1.jpg "
+                    media="(min-width: 1440px)"
+                    width="430"
+                    height="475"
+                  />
+                  <source
+                    srcset="/epic-victory-hub/assets/mentors-tomasz-mob-ddf58f5b.jpg "
+                    width="324"
+                    height="459"
+                  />
+                  <img
+                    class="mentors-img"
+                    src="/epic-victory-hub/assets/mentors-tomasz-mob-ddf58f5b.jpg"
+                    alt="Title"
+                    width="324"
+                    height="459"
+                    loading="lazy"
+                  />
+                </picture>
+              </div>
+              <div class="mentors-item-text-wrapper">
+                <h2 class="mentors-item-name">Tomasz Kowalski</h2>
+                <p class="mentors-item-nickname">"shadow"</p>
+                <p class="mentors-item-text">
+                  Specjalista w grach FPS (CS:GO, Valorant), mistrz analizy
+                  taktycznej.
+                </p>
+              </div>
+            </div>
+          </li>
+          <li class="swiper-slide mentors-slide">
+            <div class="mentors-slide-wrapper">
+              <div class="mentors-img-wrapper">
+                <picture>
+                  <source
+                    srcset="/epic-victory-hub/assets/mentors-ewa-desk-ac9e532e.jpg "
+                    media="(min-width: 1440px)"
+                    width="430"
+                    height="475"
+                  />
+                  <source
+                    srcset="/epic-victory-hub/assets/mentors-ewa-mob-f286484d.jpg "
+                    width="324"
+                    height="459"
+                  />
+                  <img
+                    class="mentors-img"
+                    src="/epic-victory-hub/assets/mentors-ewa-mob-f286484d.jpg"
+                    alt="Title"
+                    width="324"
+                    height="459"
+                    loading="lazy"
+                  />
+                </picture>
+              </div>
+              <div class="mentors-item-text-wrapper">
+                <h2 class="mentors-item-name">Ewa Nowak</h2>
+                <p class="mentors-item-nickname">"storm"</p>
+                <p class="mentors-item-text">
+                  Trenerka drużynowa MOBA (League of Legends, Dota 2), ekspertka
+                  w zakresie strategii drużynowej.
+                </p>
+              </div>
+            </div>
+          </li>
+          <li class="swiper-slide mentors-slide">
+            <div class="mentors-slide-wrapper">
+              <div class="mentors-img-wrapper">
+                <picture>
+                  <source
+                    srcset="/epic-victory-hub/assets/mentors-mateusz-desk-3a761124.jpg "
+                    media="(min-width: 1440px)"
+                    width="430"
+                    height="475"
+                  />
+                  <source
+                    srcset="/epic-victory-hub/assets/mentors-mateusz-mob-3832b4b7.jpg "
+                    width="324"
+                    height="459"
+                  />
+                  <img
+                    class="mentors-img"
+                    src="/epic-victory-hub/assets/mentors-mateusz-mob-3832b4b7.jpg"
+                    alt="Title"
+                    width="324"
+                    height="459"
+                    loading="lazy"
+                  />
+                </picture>
+              </div>
+              <div class="mentors-item-text-wrapper">
+                <h2 class="mentors-item-name">Mateusz Wiśniewski</h2>
+                <p class="mentors-item-nickname">"flash"</p>
+                <p class="mentors-item-text">
+                  Szkoleniowiec refleksu i precyzji, programy optymalizacji
+                  reakcji.
+                </p>
+              </div>
+            </div>
+          </li>
+          <li class="swiper-slide mentors-slide">
+            <div class="mentors-slide-wrapper">
+              <div class="mentors-img-wrapper">
+                <picture>
+                  <source
+                    srcset="/epic-victory-hub/assets/mentors-katarzyna-desk-a418d915.jpg "
+                    media="(min-width: 1440px)"
+                    width="430"
+                    height="475"
+                  />
+                  <source
+                    srcset="/epic-victory-hub/assets/mentors-katarzyna-mob-98ea3936.jpg "
+                    width="324"
+                    height="459"
+                  />
+                  <img
+                    class="mentors-img"
+                    src="/epic-victory-hub/assets/mentors-katarzyna-mob-98ea3936.jpg"
+                    alt="Title"
+                    width="324"
+                    height="459"
+                    loading="lazy"
+                  />
+                </picture>
+              </div>
+              <div class="mentors-item-text-wrapper">
+                <h2 class="mentors-item-name">Katarzyna Zielińska</h2>
+                <p class="mentors-item-nickname">"Focus"</p>
+                <p class="mentors-item-text">
+                  Psycholog e-sportowy, wsparcie w radzeniu sobie ze stresem i
+                  presją.
+                </p>
+              </div>
+            </div>
+          </li>
+          <li class="swiper-slide mentors-slide">
+            <div class="mentors-slide-wrapper">
+              <div class="mentors-img-wrapper">
+                <picture>
+                  <source
+                    srcset="/epic-victory-hub/assets/mentors-michal-desk-9f9d66d1.jpg "
+                    media="(min-width: 1440px)"
+                    width="430"
+                    height="475"
+                  />
+                  <source
+                    srcset="/epic-victory-hub/assets/mentors-michal-mob-b998f0c3.jpg "
+                    width="324"
+                    height="459"
+                  />
+                  <img
+                    class="mentors-img"
+                    src="/epic-victory-hub/assets/mentors-michal-mob-b998f0c3.jpg"
+                    alt="Title"
+                    width="324"
+                    height="459"
+                    loading="lazy"
+                  />
+                </picture>
+              </div>
+              <div class="mentors-item-text-wrapper">
+                <h2 class="mentors-item-name">Michał Lewandowski</h2>
+                <p class="mentors-item-nickname">"Vision"</p>
+                <p class="mentors-item-text">
+                  Ekspert ds. budowania marki gracza, trener w zakresie
+                  streamingu i monetyzacji treści.
+                </p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="equipment-section">
+  <div class="equipment-top-wrapper">
+    <div class="container">
+      <h2 class="equipment-title">
+        <svg class="arrow-icon" width="8" height="8">
+          <use href="/epic-victory-hub/assets/sprite-4806a4bc.svg#icon-ellipse"></use></svg
+        >Sprzęt i technologia
+      </h2>
+      <p class="equipment-subtitle">
+        Zoptymalizowane środowisko dla profesjonalnego gamingu
+      </p>
+    </div>
+  </div>
+  <div class="equipment-bottom-wrapper">
+    <div class="container equipment-bottom-container">
+      <div class="equipment-img-wrapper">
+        <picture>
+          <source
+            srcset="/epic-victory-hub/assets/equipment-img-desk-7917629d.jpg "
+            media="(min-width: 1440px)"
+            width="440"
+            height="293"
+          />
+          <source
+            srcset="/epic-victory-hub/assets/equipment-img-mob-aef2f2b0.jpg "
+            width="343"
+            height="228"
+          />
+          <img
+            class="equipment-img"
+            src="/epic-victory-hub/assets/equipment-img-mob-aef2f2b0.jpg"
+            alt="Photo of equipment"
+            width="343"
+            height="228"
+            loading="lazy"
+          />
+        </picture>
+      </div>
+      <ul class="equipment-list">
+        <li class="equipment-list-item">
+          <div class="equipment-item-text-wrapper">
+            <h3 class="equipment-item-title">
+              Komputery gamingowe klasy premium
+            </h3>
+            <p class="equipment-item-text">
+              Najnowsze karty graficzne i procesory.
+            </p>
+          </div>
+        </li>
+        <li class="equipment-list-item">
+          <div class="equipment-item-text-wrapper">
+            <h3 class="equipment-item-title">Monitory 240Hz</h3>
+            <p class="equipment-item-text">
+              Ultra-płynna rozgrywka bez opóźnień.
+            </p>
+          </div>
+        </li>
+        <li class="equipment-list-item">
+          <div class="equipment-item-text-wrapper">
+            <h3 class="equipment-item-title">Sprzęt dla e-sportowców</h3>
+            <p class="equipment-item-text">
+              Mechaniczne klawiatury, myszki o wysokiej precyzji.
+            </p>
+          </div>
+        </li>
+        <li class="equipment-list-item">
+          <div class="equipment-item-text-wrapper">
+            <h3 class="equipment-item-title">Dźwięk przestrzenny</h3>
+            <p class="equipment-item-text">
+              Zestawy słuchawkowe z zaawansowaną izolacją dźwięku.
+            </p>
+          </div>
+        </li>
+        <li class="equipment-list-item">
+          <div class="equipment-item-text-wrapper">
+            <h3 class="equipment-item-title">Dedykowane studio streamingowe</h3>
+            <p class="equipment-item-text">
+              Profesjonalne kamery, oświetlenie i green screen.
+            </p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+      <section class="prices-section">
+  <div class="prices-top-wrapper">
+    <div class="container">
+      <h2 class="prices-title">
+        <svg class="arrow-icon" width="8" height="8">
+          <use href="/epic-victory-hub/assets/sprite-4806a4bc.svg#icon-ellipse-white"></use></svg
+        >Członkostwo i ceny
+      </h2>
+      <p class="prices-subtitle">Dostosowane pakiety dla każdego gracza</p>
+    </div>
+  </div>
+  <div class="prices-bottom-wrapper">
+    <div class="container prices-bottom-container">
+      <ul class="prices-list">
+        <li class="prices-list-item">
+          <h3 class="prices-item-title">Karnet miesięczny</h3>
+          <p class="prices-item-text">
+            Dostęp do sprzętu, otwartych sesji treningowych i wydarzeń
+            społecznościowych.
+          </p>
+          <div class="prices-img-wrapper">
+            <img
+              class="prices-img"
+              src="data:image/png;base64,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"
+              alt="Number 1"
+              width="120"
+              height="120"
+              loading="lazy"
+            />
+          </div>
+        </li>
+        <li class="prices-list-item">
+          <h3 class="prices-item-title">Indywidualne szkolenia</h3>
+          <p class="prices-item-text">
+            Specjalistyczne sesje 1:1 z profesjonalnym trenerem.
+          </p>
+          <div class="prices-img-wrapper">
+            <img
+              class="prices-img"
+              src="data:image/png;base64,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"
+              alt="Number 2"
+              width="120"
+              height="120"
+              loading="lazy"
+            />
+          </div>
+        </li>
+        <li class="prices-list-item">
+          <h3 class="prices-item-title">Pakiet premium dla zawodowców</h3>
+          <p class="prices-item-text">
+            Pełny dostęp do wszystkich programów, analiz i turniejów.
+          </p>
+          <div class="prices-img-wrapper">
+            <img
+              class="prices-img"
+              src="data:image/png;base64,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"
+              alt="Number 3"
+              width="120"
+              height="120"
+              loading="lazy"
+            />
+          </div>
+        </li>
+        <li class="prices-list-item">
+          <h3 class="prices-item-title">Kursy dla streamerów i twórców</h3>
+          <p class="prices-item-text">
+            Dedykowane szkolenia w zakresie budowania wizerunku online.
+          </p>
+          <div class="prices-img-wrapper">
+            <img
+              class="prices-img"
+              src="data:image/png;base64,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"
+              alt="Number 4"
+              width="120"
+              height="120"
+              loading="lazy"
+            />
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+    </main>
+    <footer class="footer">
+  <div class="footer-top-wrapper">
+    <div class="container footer-container">
+      <h2 class="footer-title section-title">Kontakt</h2>
+      <p class="footer-text">Zacznij swoją drogę do zwycięstwa już dziś!</p>
+    </div>
+  </div>
+  <div class="footer-bottom-wrapper">
+    <div class="container footer-bottom-container">
+      <address class="footer-address">
+        <ul class="footer-address-list">
+          <li class="footer-address-item">
+            <a
+              class="footer-address-link"
+              href="mailto:kontakt@epicvictoryhub.com"
+              >kontakt@epicvictoryhub.com</a
+            >
+          </li>
+          <li class="footer-address-item">
+            <p class="footer-address-link">ul. Graczy 12, Warszawa, Polska</p>
+          </li>
+          <li class="footer-address-item">
+            <a class="footer-address-link" href="tel:+48600123456"
+              >+48 600 123 456</a
+            >
+          </li>
+        </ul>
+      </address>
+      <nav class="footer-nav">
+        <ul class="footer-nav-list">
+          <li class="footer-nav-list-item">
+            <a class="footer-nav-link" href="./privacy-policy.html"
+              >Polityka prywatności</a
+            >
+          </li>
+          <li class="footer-nav-list-item">
+            <a class="footer-nav-link" href="./terms-and-conditions.html"
+              >Regulamin</a
+            >
+          </li>
+          <li class="footer-nav-list-item">
+            <a class="footer-nav-link" href="./cookies-policy.html"
+              >Polityka plików cookie</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <p class="footer-bottom-text">
+        © 2025 epicvictoryhub.com, Wszelkie prawa zastrzeżone.
+      </p>
+    </div>
+  </div>
+</footer>
+
+    <div class="context-menu">
+  <nav class="context-nav">
+    <ul class="context-nav-list">
+      <li class="context-list-item">
+        <a class="context-list-link" href="./index.html#hero">O nas</a>
+      </li>
+      <li class="context-list-item">
+        <a class="context-list-link" href="./index.html#mission">Nasza misja</a>
+      </li>
+      <li class="context-list-item">
+        <a class="context-list-link" href="./index.html#programs"
+          > Programy szkoleniowe</a
+        >
+      </li>
+      <li class="context-list-item">
+        <a class="context-list-link" href="./index.html#mentors"
+          >Trenerzy i mentorzy</a
+        >
+      </li>
+      <li class="context-list-item">
+        <a class="context-list-link" href="./index.html#equipment"
+          >Sprzęt i technologia</a
+        >
+      </li>
+      <li class="context-list-item">
+        <a class="context-list-link" href="./index.html#prices"
+          >Członkostwo i ceny</a
+        >
+      </li>
+      <li class="context-list-item">
+        <a class="context-list-link" href="./index.html#footer">Kontakt</a>
+      </li>
+      <li class="context-list-item">
+        <a class="context-list-link" href="./privacy-policy.html"
+          >Polityka prywatności</a
+        >
+      </li>
+      <li class="context-list-item">
+        <a class="context-list-link" href="./terms-and-conditions.html"
+          >Regulamin</a
+        >
+      </li>
+      <li class="context-list-item">
+        <a class="context-list-link" href="./cookies-policy.html"
+          >Polityka plików cookie</a
+        >
+      </li>
+    </ul>
+  </nav>
+</div>
+
+    <section id="cookie-banner" class="cookie-banner-section">
+  <div class="container cookie-container">
+    <div class="cookie-banner-text-wrapper">
+      <h2 class="cookie-banner-title">Cookies</h2>
+      <p class="cookie-banner-text">
+        We use cookies to improve your experience on our website. By browsing
+        this website, you agree to our use of cookies.
+      </p>
+    </div>
+    <div class="cookie-banner-buttons">
+      <button class="cookie-btn accept-btn" id="cookie-accept">
+        Accept Cookies
+      </button>
+      <button class="cookie-btn decline-btn" id="cookie-decline">
+        Decline cookies
+      </button>
+    </div>
+  </div>
+</section>
+
+
+    
+  </body>
+</html>
